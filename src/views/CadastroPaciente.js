@@ -18,7 +18,7 @@ class CadastroPaciente extends React.Component{
     
     state ={
         nome:'',
-        telefone:'',
+        cpf:'',
         celular:'',
         email:'',
         cep:'',
@@ -56,14 +56,14 @@ class CadastroPaciente extends React.Component{
                             onChange={e=>this.setState({nome:e.target.value})}/>
                         </FormGroup>
                 
-                        <FormGroup label="Telefone:   " htmlFor="inputTelefone">
+                        <FormGroup label="CPF:   " htmlFor="inputCPF">
                             <InputMask
-                            mask="(99) 99999-9999"
+                            mask="999.999.999-99"
                             type= "text" 
-                            id="inputTelefone" 
+                            id="inputCPF" 
                             className="form-control"
-                            name="telefone"
-                            onChange={e=>this.setState({telefone:e.target.value})}/>
+                            name="cpf"
+                            onChange={e=>this.setState({cpf:e.target.value})}/>
                         </FormGroup>
                        
                         

@@ -40,11 +40,10 @@ class Header extends Component {
               <div className="bs-component" ref={this.container}>
         <ul className="nav nav-tabs">
           <li className="nav-item">
-            <a className="nav-link" data-toggle="tab" href="/Menu">
-              Home
-            </a>
+            
+            <NavLink className="tete" activeClassName="active" exact to="/menu">Home</NavLink>
           </li>
-          <li className="nav-item dropdown">
+          <li className="nav-item dropdown" activeClassName="active" >
             <a
               className="nav-link dropdown-toggle"
               onClick={this.handleButtonClick}
@@ -58,7 +57,7 @@ class Header extends Component {
               }
               x-placement="bottom-start"
             >
-              <a className="dropdown-item" href="/CadastroPaciente">
+              <a className="dropdown-item"  href="/CadastroPaciente">
                 Cadastrar Pacientes
               </a>
               <a className="dropdown-item" href="#">

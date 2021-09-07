@@ -95,3 +95,38 @@ pre{background:#f7f7f9}@media (min-width: 768px){body>.navbar-transparent{box-sh
     background-repeat: no-repeat;
     background-position: bottom right;
   }
+.tete {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    margin-bottom: -1px;
+    background: none;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: .5rem 1rem;
+}
+.tete.active {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    margin-bottom: -1px;
+    background: none;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: .5rem 1rem;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    margin-bottom: -1px;
+    background: none;
+    display: block;
+    box-sizing: border-box;
+    padding: .5rem 1rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    cursor: pointer;
+    color: #0080ff;
+    background-color: #15cc56;
+    border-color: #dee2e6
+}
